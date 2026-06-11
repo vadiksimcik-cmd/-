@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Свадебное приглашение | Алексей & Анна</title>
+    <title>Свадебное приглашение | Вадим & Оля</title>
     
     <!-- Красивые шрифты Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -367,9 +367,9 @@
             <div class="section" data-aos="fade-up">
                 <h2>Торжество</h2>
                 <div class="date-box">
-                    <div class="date">15 августа 2026</div>
-                    <div class="time"><i class="fa-regular fa-clock"></i> Сбор гостей в 16:00 | Церемония в 17:00</div>
-                    <div class="location"><i class="fa-solid fa-location-dot"></i> Усадьба "Берёзки", Ресторанный комплекс, г. Минск</div>
+                    <div class="date">28 августа 2026</div>
+                    <div class="time"><i class="fa-regular fa-clock"></i> Сбор гостей в 14:00 | Церемония в 15:00</div>
+                    <div class="location"><i class="fa-solid fa-location-dot"></i> Банкетный зал Темьян ", Ресторанный комплекс, г. Бобруйск</div>
                 </div>
             </div>
 
@@ -469,7 +469,7 @@
 
     // Таймер до даты свадьбы
     function updateTimer() {
-        const weddingDate = new Date(2026, 7, 15, 17, 0, 0); // 15 августа 2026, 17:00
+        const weddingDate = new Date(2026, 7, 15, 17, 0, 0); // 28 августа 2026, 15:00
         const now = new Date();
         const diff = weddingDate - now;
 
